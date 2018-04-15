@@ -1,3 +1,19 @@
 {
-    "token": "YOUR BOT TOKEN"
+    "token": "YOUR BOT TOKEN",
+    "prefix": "+",
+    "multiplayerSettings": {
+        "debug": false,
+        "2dSettings": {
+            "maxPlayers": 2,
+            "maxRoomSizeX": 4,
+            "maxRoomSizeY": 4,
+            "useReactions": true,
+        },
+        "sameChannel": false,
+        "liveChatSettings": {
+            "enabled": false,
+            "cooldown": 0.0,
+            "roles": [{"name": "Owner", "permissions": ["*"], "userIds": []}, {"name": "Moderator", "permissions": ["SEND_MESSAGE",], "userIds": []}, {"name": "Member", "permissions": ["SEND_MESSAGE"]}],
+        }
+    }
 }
