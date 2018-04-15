@@ -1,0 +1,19 @@
+{
+  "name": "crossservermultiplayer",
+  "version": "1.0.0",
+  "description": "A bot that allows multiplayer through cross server!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireMario211/Discord-Cross-Server-Multiplayer.git"
+  },
+  "author": "FireMario211 <firemario07@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FireMario211/Discord-Cross-Server-Multiplayer/issues"
+  },
+  "homepage": "https://github.com/FireMario211/Discord-Cross-Server-Multiplayer#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
